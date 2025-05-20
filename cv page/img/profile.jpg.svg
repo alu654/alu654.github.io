@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#e0e0e0"/>
+  <text x="50%" y="50%" font-family="Arial" font-size="24" text-anchor="middle" fill="#666">Profile Picture</text>
+  <text x="50%" y="58%" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">Replace with your photo</text>
+  <circle cx="250" cy="200" r="80" fill="#ccc"/>
+  <path d="M250 300 Q 300 240 350 300 Q 300 380 250 300 Q 200 380 150 300 Q 200 240 250 300 Z" fill="#ccc"/>
+</svg>

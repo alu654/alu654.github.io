@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/notification.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav id="navbar">
+            <div class="logo">Alan Fried</div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="section">
+            <div class="hero-content">
+                <h1 class="animate-on-scroll">Alan Fried</h1>
+                <h2 class="animate-on-scroll">Future systems engineer </h2>
+                <p class="animate-on-scroll">As a full stack developer, I contribute to the development of innovative and customized web solutions for clients from various sectors. I use Python and JavaScript as my main languages, and Git as a version control tool.
+                </p>
+                <div class="cta-buttons animate-on-scroll">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#" class="btn secondary-btn">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <img src="img/profile.jpg.svg" alt="Profile Picture" id="profile-pic">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <p>As a full stack developer, I contribute to the development of innovative and customized web solutions for clients from various sectors. I use C# and JavaScript as my main languages, and Git as a version control tool.
+
+                        I am currently in my final year of studying Systems Engineering at the National Technological University, where I have acquired theoretical and practical knowledge in programming, databases, networks, computer security, and other related areas. I worked as a web developer at Parsed, a software company specialized in mobile and web applications, where I participated in large-scale and complex projects, using technologies such as React, Node.js, and MongoDB..</p>
+                    <!-- <p>Include information about your professional philosophy, work ethic, and what makes you unique in your field.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title animate-on-scroll">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">March 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>CRM Developer</h3>
+                        <h4>OneInfo Consulting</h4>
+                        <p>Currently working with Siebel CRM, developing solutions for Universal Assistant..</p>
+                        <ul class="achievements">
+                            <li>Siebel</li>
+                            <li>SQL</li>
+                            <!-- <li>Key achievement 3</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2023 - March 2024</div>
+                    <div class="timeline-content">
+                        <h3>Full-stack Developer</h3>
+                        <h4>Parsed</h4>
+                        <p>I developed and implemented a system that connected to an
+                            artificial intelligence to save notices, making them accessible and commentable for all users. I used Python to develop the backend, creating robust APIs and managing server-side logic. I designing interactive and responsive user interfaces that improved the user experience..</p>
+                        <ul class="achievements">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title animate-on-scroll">Education</h2>
+            <div class="education-container">
+                <div class="education-item animate-on-scroll">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>High School degree, Technician
+                            in IT and communication
+                            media</h3>
+                        <h4>Escuela Tecnica ORT</h4>
+                        <p class="education-date">2012 - 2017</p>
+                        <p>Computer Science.</p>
+                    </div>
+                </div>
+                
+                <div class="education-item animate-on-scroll">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Universidad Tecnologica Nacional (UTN)</h3>
+                        <h4>Systems Engineering</h4>
+                        <p class="education-date">2018 - Present</p>
+                        <p>Systems Engineering.</p>
+                    </div>
+                </div>
+                <!-- Add more education items as needed -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title animate-on-scroll">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category animate-on-scroll">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Photoshop</div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C#</div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="60%"></div>
+                            </div>
+                        </div>
+                        <!-- Add more skills as needed -->
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Creativity</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                        <span class="skill-tag">Attention to Detail</span>
+                        <span class="skill-tag">Collaboration</span>
+                        <span class="skill-tag">Empathy</span>
+                        <!-- Add more skill tags as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title animate-on-scroll">Projects</h2>
+            <div class="projects-filter animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll" data-category="web">
+                    <div class="project-img">
+                        <img src="img/project1.jpg.svg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Name 1</h3>
+                        <p>Brief description of the project, technologies used, and your role.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll" data-category="design">
+                    <div class="project-img">
+                        <img src="img/project2.jpg.svg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Name 2</h3>
+                        <p>Brief description of the project, technologies used, and your role.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title animate-on-scroll">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info animate-on-scroll">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>alanffederico@hotmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+54 1169323638</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Argentina</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/alanfried/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/alu654" target="_blank"><i class="fab fa-github"></i></a>
+                        <!-- <a href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                        <!-- Add more social links as needed -->
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form animate-on-scroll">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Your Name. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
